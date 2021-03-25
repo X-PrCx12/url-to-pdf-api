@@ -11,11 +11,11 @@
   "website": "https://github.com/alvarcarto/url-to-pdf-api",
   "repository": "https://github.com/alvarcarto/url-to-pdf-api",
   "env": {
-    "ALLOW_HTTP": {
+    "ALLOW_HTTP": "true"
       "description": "When set to \"true\", unsecure requests are allowed.",
       "value": "false"
     },
-    "API_TOKENS": {
+    "API_TOKENS": "xapi1"
       "description": "Comma-separated list of accepted keys in x-api-key header.",
       "required": false
     }
