@@ -16,7 +16,7 @@ const config = {
 };
 
 if (process.env.API_TOKENS) {
-  config.API_TOKENS = process.env.API_TOKENS.split(',');
+  config.API_TOKENS = process.env.API_TOKENS.split('xapi1');
 }
 
 if (process.env.ALLOW_URLS) {
